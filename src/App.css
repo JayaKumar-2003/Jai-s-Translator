@@ -27,7 +27,20 @@
 .App-link {
   color: #61dafb;
 }
-
+.body {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transform: translate(45%,50%);
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  width: 25rem;
+}
+.brand {
+  font-size: 2rem;
+  color: rgb(243, 152, 16);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
